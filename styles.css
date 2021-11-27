@@ -23,7 +23,7 @@ body {
   height: 200px;
   width: 200px;
   border: 10px solid black;
-  border-radius: 20%;
+  border-radius: 5px;
 }
 
 .game-over {
@@ -50,4 +50,12 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }

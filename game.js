@@ -38,7 +38,7 @@ function animatePress(currentColouor) {
   $("#" + currentColouor).addClass("pressed");
   setTimeout(function() {
     $("#" + currentColouor).removeClass("pressed");
-  }, 100);
+  }, 200);
 }
 
 function checkAnswer(currentLevel) {
